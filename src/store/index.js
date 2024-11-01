@@ -23,7 +23,7 @@ const slice = createSlice({
       window.localStorage.setItem("data", JSON.stringify(state.data));
     },
     setFilter(state , action){
-      state.dataFilter=act
+      state.dataFilter=action.payload
     }
   },
 });
