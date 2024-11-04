@@ -15,7 +15,7 @@ export function HomePage() {
   const [showFilter , setShowFilter]= useState(false) ;
   return (
     <section className=" sm:px-[20%] py-3 w-full h-[calc(100vh-70px)] mt-[70px]">
-      <article className="w-full  min-h-full shadow-2xl rounded flex flex-col gap-3 p-4 overflow-x-hidden">
+      <article className="w-full  min-h-full rounded flex flex-col gap-3 p-4 overflow-x-hidden">
         <div className="flex justify-between px-5">
           <div className="">
               <i className="fa-solid fa-bars-filter cursor-pointer" onClick={()=>setShowFilter(prev=>!prev)}></i>
